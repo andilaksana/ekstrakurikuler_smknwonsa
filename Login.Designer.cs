@@ -43,8 +43,7 @@ namespace Aplikasi_Ekstrakurikuler_SMKNWONSA
             button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            System.ComponentModel.ISupportInitialize pictureBox11 = ((System.ComponentModel.ISupportInitialize)pictureBox1);
-            pictureBox11.BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // label4
@@ -83,6 +82,7 @@ namespace Aplikasi_Ekstrakurikuler_SMKNWONSA
             textBox2.Font = new Font("Cambria", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             textBox2.Location = new Point(220, 446);
             textBox2.Name = "textBox2";
+            textBox2.PasswordChar = '*';
             textBox2.Size = new Size(361, 39);
             textBox2.TabIndex = 18;
             // 
