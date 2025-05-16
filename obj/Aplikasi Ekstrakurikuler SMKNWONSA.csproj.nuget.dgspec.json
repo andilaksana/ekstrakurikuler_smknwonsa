@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\KULIAH BANG ANDI\\Semester 6\\Pemrograman Visual\\Tugas CRUD Desktop App\\Aplikasi Ekstrakurikuler SMKNWONSA P5 - Koneksi MySQL ##StayHere##\\Aplikasi Ekstrakurikuler SMKNWONSA.csproj": {}
+    "D:\\KULIAH BANG ANDI\\Semester 6\\Pemrograman Visual\\Tugas CRUD Desktop App\\Aplikasi Ekstrakurikuler SMKNWONSA P6 - Belum Bisa Koneksi MySQL ##StayHere##\\Aplikasi Ekstrakurikuler SMKNWONSA.csproj": {}
   },
   "projects": {
-    "D:\\KULIAH BANG ANDI\\Semester 6\\Pemrograman Visual\\Tugas CRUD Desktop App\\Aplikasi Ekstrakurikuler SMKNWONSA P5 - Koneksi MySQL ##StayHere##\\Aplikasi Ekstrakurikuler SMKNWONSA.csproj": {
+    "D:\\KULIAH BANG ANDI\\Semester 6\\Pemrograman Visual\\Tugas CRUD Desktop App\\Aplikasi Ekstrakurikuler SMKNWONSA P6 - Belum Bisa Koneksi MySQL ##StayHere##\\Aplikasi Ekstrakurikuler SMKNWONSA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\KULIAH BANG ANDI\\Semester 6\\Pemrograman Visual\\Tugas CRUD Desktop App\\Aplikasi Ekstrakurikuler SMKNWONSA P5 - Koneksi MySQL ##StayHere##\\Aplikasi Ekstrakurikuler SMKNWONSA.csproj",
+        "projectUniqueName": "D:\\KULIAH BANG ANDI\\Semester 6\\Pemrograman Visual\\Tugas CRUD Desktop App\\Aplikasi Ekstrakurikuler SMKNWONSA P6 - Belum Bisa Koneksi MySQL ##StayHere##\\Aplikasi Ekstrakurikuler SMKNWONSA.csproj",
         "projectName": "Aplikasi Ekstrakurikuler SMKNWONSA",
-        "projectPath": "D:\\KULIAH BANG ANDI\\Semester 6\\Pemrograman Visual\\Tugas CRUD Desktop App\\Aplikasi Ekstrakurikuler SMKNWONSA P5 - Koneksi MySQL ##StayHere##\\Aplikasi Ekstrakurikuler SMKNWONSA.csproj",
+        "projectPath": "D:\\KULIAH BANG ANDI\\Semester 6\\Pemrograman Visual\\Tugas CRUD Desktop App\\Aplikasi Ekstrakurikuler SMKNWONSA P6 - Belum Bisa Koneksi MySQL ##StayHere##\\Aplikasi Ekstrakurikuler SMKNWONSA.csproj",
         "packagesPath": "C:\\Users\\ACER JAWA ID\\.nuget\\packages\\",
-        "outputPath": "D:\\KULIAH BANG ANDI\\Semester 6\\Pemrograman Visual\\Tugas CRUD Desktop App\\Aplikasi Ekstrakurikuler SMKNWONSA P5 - Koneksi MySQL ##StayHere##\\obj\\",
+        "outputPath": "D:\\KULIAH BANG ANDI\\Semester 6\\Pemrograman Visual\\Tugas CRUD Desktop App\\Aplikasi Ekstrakurikuler SMKNWONSA P6 - Belum Bisa Koneksi MySQL ##StayHere##\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

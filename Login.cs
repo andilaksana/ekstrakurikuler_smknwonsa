@@ -28,22 +28,34 @@ namespace Aplikasi_Ekstrakurikuler_SMKNWONSA
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MySqlConnection koneksi = new MySqlConnection("server=localhost;user=root;password=;database=ekstrakurikuler_wonsa");
-            MySqlCommand command = new MySqlCommand("select count(*) from Login where username = @username and password = @password", koneksi);
-            command.Parameters.AddWithValue("@username", textBox1.Text);
-            command.Parameters.AddWithValue("@password", textBox2.Text);
-            MySqlDataAdapter adapter = new MySqlDataAdapter(command);
-            DataTable dt = new DataTable();
-            adapter.Fill(dt);
-            if (dt.Rows[0][0].ToString() == "1")
+            string server = "server=localhost;user=root;password=;database=ekstrakurikuler_wonsa";
+            MySqlConnection koneksi = new MySqlConnection(server);
+            string username = textBox1.Text.ToString();
+            string password = textBox2.Text.ToString();
+            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
             {
-                this.Hide();
-                Home panggil = new Home();
-                panggil.Show();
+                MessageBox.Show("Kolom Harus Terisi");
             }
             else
             {
-                MessageBox.Show("mohon isi username dan password dengan benar !!", "perhatian", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                koneksi.Open();
+                MySqlCommand perintah = new MySqlCommand("select * from user", koneksi);
+                MySqlDataReader reader = perintah.ExecuteReader();
+                while (reader.Read())
+                {
+                    if (username.Equals(reader.GetString("username")) && (password.Equals(reader.GetString("password"))))
+                    {
+                        MessageBox.Show("Login Berhasil");
+                        this.Hide();
+                        Home panggil = new Home();
+                        panggil.Show();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Gagal Login Silahkan Menggunakan Username dan Password yang Benar");
+                    }
+                }
+                koneksi.Close();
             }
         }
     }
